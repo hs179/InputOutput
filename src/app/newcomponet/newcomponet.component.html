@@ -1,0 +1,7 @@
+<h3>Message of child : {{childMessage}}</h3>
+<ul>
+    <li *ngFor="let item of items; let i = index">
+      {{ item }}
+      <button (click)="delete(i)">Delete</button>
+    </li>
+  </ul>
