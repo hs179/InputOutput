@@ -14,7 +14,7 @@ export class NewcomponetComponent {
  @Output() onDelete =  new EventEmitter<number>()
 
  delete(index: number) {
-  this.onDelete.emit(index);
+  this.onDelete.emit(index); 
 }
 
 }
